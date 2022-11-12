@@ -11,6 +11,12 @@
 		BA036366291F731D00F3B0CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA036365291F731D00F3B0CE /* ContentView.swift */; };
 		BA036368291F731E00F3B0CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA036367291F731E00F3B0CE /* Assets.xcassets */; };
 		BA03636B291F731E00F3B0CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA03636A291F731E00F3B0CE /* Preview Assets.xcassets */; };
+		BA036372291F737F00F3B0CE /* MySB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA036371291F737F00F3B0CE /* MySB.storyboard */; };
+		BA036374291F739800F3B0CE /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA036373291F739800F3B0CE /* MyViewController.swift */; };
+		BA036376291F740100F3B0CE /* TheVCforSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA036375291F740100F3B0CE /* TheVCforSwiftUI.swift */; };
+		BA036378291F77DA00F3B0CE /* SView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA036377291F77DA00F3B0CE /* SView.swift */; };
+		BA03637A291F77E800F3B0CE /* SView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA036379291F77E800F3B0CE /* SView.xib */; };
+		BA03637C291F78BE00F3B0CE /* TheViewForSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA03637B291F78BE00F3B0CE /* TheViewForSwiftUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		BA036365291F731D00F3B0CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BA036367291F731E00F3B0CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA03636A291F731E00F3B0CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA036371291F737F00F3B0CE /* MySB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MySB.storyboard; sourceTree = "<group>"; };
+		BA036373291F739800F3B0CE /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		BA036375291F740100F3B0CE /* TheVCforSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheVCforSwiftUI.swift; sourceTree = "<group>"; };
+		BA036377291F77DA00F3B0CE /* SView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SView.swift; sourceTree = "<group>"; };
+		BA036379291F77E800F3B0CE /* SView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SView.xib; sourceTree = "<group>"; };
+		BA03637B291F78BE00F3B0CE /* TheViewForSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheViewForSwiftUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +67,12 @@
 				BA036365291F731D00F3B0CE /* ContentView.swift */,
 				BA036367291F731E00F3B0CE /* Assets.xcassets */,
 				BA036369291F731E00F3B0CE /* Preview Content */,
+				BA036371291F737F00F3B0CE /* MySB.storyboard */,
+				BA036373291F739800F3B0CE /* MyViewController.swift */,
+				BA036375291F740100F3B0CE /* TheVCforSwiftUI.swift */,
+				BA036377291F77DA00F3B0CE /* SView.swift */,
+				BA036379291F77E800F3B0CE /* SView.xib */,
+				BA03637B291F78BE00F3B0CE /* TheViewForSwiftUI.swift */,
 			);
 			path = A209UIS;
 			sourceTree = "<group>";
@@ -125,6 +143,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA03637A291F77E800F3B0CE /* SView.xib in Resources */,
+				BA036372291F737F00F3B0CE /* MySB.storyboard in Resources */,
 				BA03636B291F731E00F3B0CE /* Preview Assets.xcassets in Resources */,
 				BA036368291F731E00F3B0CE /* Assets.xcassets in Resources */,
 			);
@@ -137,7 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA036376291F740100F3B0CE /* TheVCforSwiftUI.swift in Sources */,
 				BA036366291F731D00F3B0CE /* ContentView.swift in Sources */,
+				BA036374291F739800F3B0CE /* MyViewController.swift in Sources */,
+				BA036378291F77DA00F3B0CE /* SView.swift in Sources */,
+				BA03637C291F78BE00F3B0CE /* TheViewForSwiftUI.swift in Sources */,
 				BA036364291F731D00F3B0CE /* A209UISApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
